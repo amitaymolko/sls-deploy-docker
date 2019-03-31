@@ -26,4 +26,6 @@ RUN python3 -m pip install --upgrade pip
 RUN sudo python3 -m pip install --upgrade awscli && \
     export PATH=$HOME/.local/bin:$PATH 
 
+RUN sudo yum install -y jq
+
 
